@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<style>
+    body{
+        background-color: black;
+        margin: 0;
+    }
+    header{
+        position: fixed;
+        background-color: white;
+        height: 6rem;
+        width:100%;
+    }
+    footer{
+        height: 10rem;
+        background-color: #6D635F;
+        width: 100%;
+        display: flex;
+    }
+    .menu{
+        color: black;
+        display: flex;
+        justify-content:space-around;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .chose{
+        text-align: center;
+        width: 100px;
+        height: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .LogoName{
+        font-family:'Times New Roman', Times, serif;
+        position: fixed;
+        top: 7rem;
+        left: 42rem;
+    }
+    #home{
+        text-align: center;
+        color:palevioletred;
+        font-size: 5rem;
+        width: 250px;
+        position: relative;
+        top:-6.3rem;
+        border-radius: 2rem 2rem 2rem 2rem;
+        background-color:white;
+    }
+    .pic1{
+        width: 25rem;
+    }
+    .space1{
+        display: flex;
+        justify-content:space-around;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    #pass1{
+        margin-left: 2rem;
+        position: relative;
+    }
+    #pic2{
+        width: 70%;
+    }
+    .space2{
+       text-align: center;
+    }
+    #div2{
+        cursor: pointer;
+        opacity: 0%;
+        color:white;
+        width: 65rem;
+        height: 41rem;
+        position: relative;
+        margin:-43rem 30rem 0rem 15rem;
+        background-color: rgb(127, 184, 165);
+        transition: all 1s;
+    }
+    .logo2{
+        margin-top: 2rem;
+        width:15%;
+    }
+    .pass2{
+        text-align: left;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-indent: 2rem;
+    }
+    .footwords{
+        margin: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:600;
+    }
+    .footpass{
+        width: 18rem;
+        margin-top: 10px;
+        margin-bottom: auto;
+        margin-left: 25px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="chose" id="list">LIST A ROOM</div>
+            <div class="chose" id="travel">TRAVEL</div>
+            <div class="chose" id="study">STUDY</div>
+            <div class="chose" id="work">WORK</div>
+            <div class="chose" id="pick">PICK UP</div>
+        </div>
+    </header>
+    <div class="LogoName"><h1 id="home">Home</h1></div>
+    <br></br><br></br><br></br><br></br><br></br>
+    <div class="space1">
+        <image class="pic1" src="home1.jpg"></image>
+        <p id="pass1" style="color: white">
+            If you are seeking a new cozy department for some reasons, our place is not a exception along thousand accommodations around the city.
+            With the orange lights equiped suround the house, we could bring you a tranquil temperature which would reduce depression after hard working days.
+            Providing private space, services and comfortation is our responsibility.
+            Idea House is located in a quite small alley, so that it not cause any noise and botherness, but it not affect alot of about your transportion, cars are available to move in hear.
+            Homestay is a popular form of hospitality and lodging whereby visitors share a residence with a local of the city to which they are traveling. The length of stay can vary from one night to over a year and can be provided gratis (gift economy), in exchange for monetary compensation, in exchange for a stay at the guest's property either simultaneously or at another time (home exchange), or in exchange for housekeeping or work on the host's property (barter economy). Homestays are examples of collaborative consumption and the sharing economy.[1]
+            Farm stays are a type of a homestay, in which the visitor stays on a working farm.
+            The terms of the homestay are generally worked out by the host and guest in advance and can include items such as the type of lodging, length of stay, housekeeping or work required to be performed, curfews, use of utilities and household facilities, food to be provided, and rules related to smoking, drinking, and drugs.
+            Homestays offer several advantages such as exposure to everyday life in another location, opportunities for cultural diplomacy, friendship, intercultural competence, and foreign language practice, local advice, and a lower carbon footprint compared to other types of lodging; however, they may have restrictions such as curfews and work requirements and may not have the same level of comfort, amenities, and privacy as other types of lodging.
+            Independent travelers typically arrange homestays via social networking services. Homestays can also be arranged by academic institutions (for their students that study abroad or participate in student exchange programs).
+            A family that hosts a non-family member is a host family. Hosts can also be involved in au pair programs in which a long-term guest stays with a family who provides accommodation in return for child care assistance and light household duties. Au pairs are treated as part of the family and participate in their day-to-day family routines.
+        </p>
+    </div>
+    <br></br><br></br>
+    <div class="space2">
+        <image id="pic2" src="home2.jpg"></image>
+        <div id="div2">
+            <img class="logo2" src="home3.png">
+            <p class="pass2">
+                By living in a homestay, you can have the opportunity to be part of a family unit. They are likely to have home-cooked meals, family nights in and a supportive environment that you will be immersed in. While each family is different – and some may not be entirely open to you becoming one of their clan – it can be a reassuring thought to know you’ll have them while you are away from your own family.
+                Make sure to talk to talk your homestay family online and arrange some Skype calls if possible before accepting your room. By doing this, you can make sure you are clear on what living there will be like and whether you will get on.
+                Rather than merely living in your university town, you will see what life is like for the locals. From traditional food to hidden spots in the city, living with a local family will open your eyes to a world you would otherwise miss.
+                You may not be living in your student city forever, so it’s an excellent opportunity to make the most of your time by really getting to know the place. Not only will this help you settle into your new home, you will also be able to show your university friends all the cool stuff you know about and help them to appreciate the city as well.
+                As fun as student life is, for some, it could get slightly tiresome being around the same people all the time. By living in a homestay, you will get a break from the student mentality when you’re not on campus, which can be great when you need to focus on an assignment or just need some recharging.
+                Students are notorious for working hard, playing hard, so being able to seek some refuge from this crazy lifestyle can be really useful at certain times.
+            </p>
+        </div>
+    </div>
+    <br></br><br></br><br></br>
+    <footer>
+        <div class="footpass">
+            <p class="footwords" style="color:rgb(190, 182, 182)">COMPANY</p>
+            <p class="footwords">About Us</p>
+            <p class="footwords">Seek out</p>
+            <p class="footwords">Work with us</p>
+            <p class="footwords">Contact Us</p>
+        </div>
+        <div class="footpass">
+            <p class="footwords" style="color:rgb(190, 182, 182)">EXPLORE</p>
+            <p class="footwords">Blog</p>
+            <p class="footwords">Inspire me</p>
+            <p class="footwords">Invite Friends</p>
+        </div>
+    </footer>
+</body>
+<script>
+    const div2 = document.querySelector("#div2");
+    div2.onmouseover = () => {
+        div2.style.opacity = "90%";
+    }
+    div2.onmouseleave = ()=>{
+        div2.style.opacity = "0%";
+    }
+    const list = document.querySelector("#list");
+    list.onmouseover = () => {list.style.color="pink";}
+    list.onmouseleave = () => {list.style.color="black";}
+    list.onclick = () => {window.location.href="Travel.html";}
+
+    const travel = document.querySelector("#travel");
+    travel.onmouseover = () => {travel.style.color="pink";}
+    travel.onmouseleave = () => {travel.style.color="black";}
+    travel.onclick = () => {window.location.href="Travel.html";}
+
+    const study = document.querySelector("#study");
+    study.onmouseover = () => {study.style.color="pink";}
+    study.onmouseleave = () => {study.style.color="black";}
+    study.onclick = () => {window.location.href="Travel.html";}
+
+    const work = document.querySelector("#work");
+    work.onmouseover = () => {work.style.color="pink";}
+    work.onmouseleave = () => {work.style.color="black";}
+    work.onclick = () => {window.location.href="Travel.html";}
+
+    const pick = document.querySelector("#pick");
+    pick.onmouseover = () => {pick.style.color="pink";}
+    pick.onmouseleave = () => {pick.style.color="black";}
+    pick.onclick = () => {window.location.href="Travel.html";}
+    
+</script>
+</html>
